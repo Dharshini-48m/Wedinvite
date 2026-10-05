@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    color: #111111;
+}
+
+.wedding-plans {
+    width: 100%;
+    text-align: center;
+    padding-top: 108px;
+}
+
+.wedding-plans h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 45px;
+}
+
+.wedding-plans h1 em {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.wedding-plans p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5d6570;
+    letter-spacing: 0.2px;
+}
+
+
+.offer-section {
+            width: 100%;
+            padding: 28px 32px;
+        }
+
+        .offer-title {
+            font-family: Arial, sans-serif;
+            font-size: 34px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+            color: #061c3d;
+        }
+
+        .offer-text {
+            font-size: 17px;
+            line-height: 1.75;
+            letter-spacing: 0.7px;
+            font-weight: 400;
+            color: #061c3d;
+            max-width: 1280px;
+        }
+
+
+        
+        body {
+            background-color: #f9f9f9;
+        }
+        .top-bar {
+            background-color: #e60000;
+            color: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 40px;
+            font-size: 13px;
+        }
+
+        .top-left-text {
+            font-weight: 500;
+        }
+
+        .top-center-contact {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .top-center-contact a {
+            color: #ffffff;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .top-right-social {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            font-size: 14px;
+        }
+
+        .social-icons a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+
+        .social-icons a:hover {
+            opacity: 0.8;
+        }
+
+        .contact-us-btn {
+            border-left: 1px solid rgba(255, 255, 255, 0.3);
+            padding-left: 20px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+
+
+        .main-header {
+            background-color: #ff5630;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 40px;
+            gap: 30px;
+        }
+
+        .logo {
+            font-family: 'Ruthie', cursive;
+            font-size: 45px;
+            color: #000000;
+            text-decoration: none;
+            font-weight: bold;
+            line-height: 1;
+            white-space: nowrap;
+        }
+        .search-container {
+            flex: 1;
+            max-width: 700px;
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+
+        .search-input {
+            flex: 1;
+            border: none;
+            padding: 12px 15px;
+            font-size: 14px;
+            outline: none;
+            color: #666;
+        }
+
+        .category-select {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding: 0 15px;
+            border-left: 1px solid #eeeeee;
+            color: #777777;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .search-btn {
+            background: none;
+            border: none;
+            padding: 0 20px;
+            color: #777777;
+            cursor: pointer;
+            font-size: 16px;
+            border-left: 1px solid #eeeeee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            white-space: nowrap;
+        }
+
+        .login-reg-btn {
+            color: #333333;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .wishlist-container {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .wishlist-icon {
+            font-size: 20px;
+            color: #444444;
+            border: 1px solid #cccccc;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+        }
+
+        .wishlist-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background-color: #ffffff;
+            color: #666666;
+            font-size: 11px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #dddddd;
+            font-weight: 600;
+        }
+        .nav-bar {
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            padding-left: 40px;
+        }
+
+        .browse-categories {
+            background-color: #fffcfc;
+            color: #fffdfd;
+            padding: 16px 25px;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+            width: 240px;
+            justify-content: space-between;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            padding-left: 20px;
+        }
+
+        .nav-links li a {
+            display: block;
+            padding: 16px 20px;
+            color: #333333;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .nav-links li a.active {
+            border-bottom: 2px solid #e60000;
+        }
+
+        .nav-links li a:hover {
+            color: #e60000;
+        }
+
+
+
+        .plans {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 14px;
+    width: 100%;
+    padding: 13px 63px 0;
+}
+
+.plan-card {
+    width: 33.33%;
+    min-height: 550px;
+    background: #ffffff;
+    padding: 0 30px 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.plan-card h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.plan-card h2 sup {
+    font-size: 18px;
+    vertical-align: top;
+    position: relative;
+    top: 3px;
+}
+
+.payment {
+    text-align: center;
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 14px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e2e2e2;
+    margin-bottom: 27px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    color: #536174;
+    line-height: 1.25;
+}
+
+ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-size: 19px;
+    color: #202d68;
+    font-weight: bold;
+}
+
+.plan-card button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 29px auto 0;
+    border: 2px solid #111111;
+    border-radius: 25px;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.plan-card button.standard {
+    background: #d2ab62;
+    border-color: #d2ab62;
+    color: #ffffff;
+}
+
+.description {
+    text-align: center;
+    font-size: 13px;
+    color: #536174;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    .plans {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .plan-card {
+        width: 100%;
+    }
+}
+
+.info {
+    width: 100%;
+    text-align: center;
+    padding-top: 43px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.info p + p {
+    margin-top: 2px;
+}
+
+
+.wedding-section {
+    width: 100%;
+    height: 424px;
+    background: #ffffff;
+    border-radius: 0 0 12px 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+    padding: 30px 80px;
+}
+.left-image {
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-image img {
+    width: 100%;
+    max-width: 510px;
+    height: auto;
+    display: block;
+}
+.right-content {
+    width: 500px;
+    text-align: left;
+}
+
+.right-content h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #111111;
+    margin-bottom: 36px;
+}
+
+.right-content h1 em {
+    font-style: italic;
+    font-weight: 700;
+}
+.right-content button {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+
+    padding: 10px 32px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .wedding-section {
+        height: auto;
+        flex-direction: column;
+        padding: 40px 25px;
+        gap: 30px;
+    }
+
+    .left-image,
+    .right-content {
+        width: 100%;
+    }
+
+    .right-content h1 {
+        font-size: 30px;
+    }
+}
+
+
+.site-footer{
+    background-color: rgb(255, 31, 31); 
+    padding: 50px 80px 40px 80px;
+    color: rgb(39, 39, 39); 
+    box-sizing: border-box;
+}
+.footer-top{
+    margin-bottom: 45px;
+}
+.footer-title{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin: 0 0 12px 0;
+    color: rgb(5, 5, 5);
+}
+
+.newsletter-text{
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    color: rgb(0, 0, 0);
+}
+.newsletter-form{
+    display: flex;
+    max-width: 500px;
+}
+.email-input{
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid rgb(250, 243, 243);
+    background-color: rgb(243, 238, 238);
+    font-size: 14px;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+.email-input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.signup-btn{
+    background-color: rgb(156, 143, 65); 
+    color: white;
+    border: none;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.signup-btn:hover{
+    background-color: #b09372;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+.footer-column{
+    flex: 1;
+}
+.column-title{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin: 0 0 20px 0;
+    color:rgb(0, 0, 0);
+}
+.footer-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li{
+    margin-bottom: 12px;
+}
+.footer-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    transition: color 0.2s;
+}
+.footer-links li a:hover{
+    color: rgb(0, 0, 0);
+}
+.contact-info p{
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+.contact-info a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+.address-text{
+    max-width: 380px;
+    color: rgb(0, 0, 0);
+}
+.social-icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.social-icons a{
+    color: rgb(197, 163, 99); 
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.social-icons a:hover{
+    color: rgb(255, 251, 251);
+}
+@media (max-width: 768px){
+.site-footer{
+padding: 40px 20px;
+}
+.footer-bottom{
+flex-direction: column;
+gap: 30px;
+}
+.newsletter-form{
+ width: 100%;
+}
+}
